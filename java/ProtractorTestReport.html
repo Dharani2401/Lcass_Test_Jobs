@@ -1,0 +1,3091 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Report for testRun-java</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/css/lightbox.min.css" >
+    <style type="text/css">
+      .panel-heading {
+    padding: 0;
+}
+
+.panel-heading a {
+    padding: 10px 5px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.panel-heading i.glyphicon-chevron-down {
+    display: none;
+}
+
+.panel-heading i.glyphicon-chevron-right {
+    display: inline-block;
+}
+
+.panel-heading.open i.glyphicon-chevron-down {
+    display: inline-block;
+}
+
+.panel-heading.open i.glyphicon-chevron-right {
+    display: none;
+}
+
+.info {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.panel-title b {
+    padding-right: 10px;
+}
+
+.panel-heading .label-container {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.panel-heading .label-container label {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.navbar .label-container {
+    position: absolute;
+    right: 5%;
+    top: 14px;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.navbar .label {
+    font-size: 20px;
+}
+
+.navbar .project-name {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -45%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chart {
+    padding-bottom: 15px;
+}
+
+div.chart div div svg rect {
+    fill: #f5f5f5;
+}
+
+table.arguments {
+    margin-left: 30px;
+}
+
+.screenshot {
+    padding: 2% 0 2% 0;
+}
+
+.scenarioTitle {
+    width: 80%
+}
+
+.description {
+    background-color: white;
+    border-color: white;
+    line-height: 1.6;
+    color: #6f6f6f;
+    font-weight: 400;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding:  0.1em 0.5em 1.2em 1.5em
+}
+
+#scenario-description {
+    padding-bottom:  1em;
+    padding-left: 0.2em;
+}
+
+.scrollBar {
+    overflow-x: scroll;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.info {
+    background-color: #fbfbfb;
+}
+
+.step-duration {
+    float: right;
+}
+
+.footer-div {
+    text-align: right;
+    vertical-align: middle;
+    height:3.5%;
+    width:100%;
+}
+
+.footer-container {
+    margin-right: 10px;
+    margin-top: 5px;
+    width:18%;
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.footer-link {
+    font-size: 13px;
+    float: right;
+}
+
+.footer-link:hover {
+    color: darkgray;
+}
+
+.col-lg-11 {
+    width: 100%;
+}
+
+.generated-on {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+    </style>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="project-name visible-md visible-lg">Test Report for testRun-java</div>
+          <div class="label-container">
+            <span class="label label-success" title=TestCases>Passed: 0</span>
+            <span class="label label-danger" title=TestCases>Failed: 62</span> 
+			
+            <span class="label label-info">Time Elapsed: 0h 18min 29s</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+	
+    <div class="generated-on">8/6/2022, 1:30:18 PM</div>
+	
+    <!--<div class="generated-on"><b>Platform:</b> iTAP</div>
+    <div class="info"><b>Browser:</b> chrome unknownBrowser</div>
+    <div class="info"><b>Generated on:</b> 8/6/2022, 1:30:18 PM</div>-->
+
+
+      <div class="row">
+        <div class="chart col-lg-6 col-md-6" id="piechart_testsuites"></div>
+        <div class="chart col-lg-6 col-md-6" id="piechart_testcases"></div>
+      </div>
+	  
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" href="#logOutput">
+              <i class="glyphicon glyphicon-chevron-right"></i>
+              <i class="glyphicon glyphicon-chevron-down"></i>
+              <b>Environment</b>
+            </a>
+          </h4>
+        </div>
+        <div id="logOutput" class="panel-collapse collapse">
+          <div class="panel-body">
+            <div class="row">
+              <div class="clearfix metadata col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <div class="pull-left">
+                    <strong> Browser: </strong>chrome unknownBrowser
+                  </div>
+                  <div class="pull-right">
+                    <strong> Platform: </strong>iTAP
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+<div class="row">
+  <div class="col-lg-11 col-md-6">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapseSuite0">
+          
+            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+          
+          <font color="red"><b>TestSuite:</b>java</font>
+          
+          <span class="label-container">
+            
+            <span class="label label-danger">62</span>
+            
+            
+          </span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSuite0" class="panel-collapse collapse">
+            <div class="panel-body">
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_0">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>programprocesspage_testcase1</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_0" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 186 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_1">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>xrefcount_testcase2</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 16 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_2">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>xrefpage_testcase3</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 15 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_3">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>xrefclearsearch_testcase4</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 10 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_4">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>xref_testcase5</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 10 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_5">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>variableimpactpage_testcase6</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: unexpected alert open: {Alert text : }
+  (Session info: chrome=104.0.5112.81): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java variableimpactpage_testcase6.png" data-lightbox="chrome-java variableimpactpage_testcase6.png">
+                              <img src="./screenshots/chrome-java variableimpactpage_testcase6.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java variableimpactpage_testcase6.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_6">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>userguidepage_testcase7</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 15 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_7">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>userguide_testcase8</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 17 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_8">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>testcolor_testcase9</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_8" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: unexpected alert open: {Alert text : }
+  (Session info: chrome=104.0.5112.81): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java testcolor_testcase9.png" data-lightbox="chrome-java testcolor_testcase9.png">
+                              <img src="./screenshots/chrome-java testcolor_testcase9.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java testcolor_testcase9.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_9">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>spiderautofill_testcase10</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_9" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 26 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_10">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>spiderpage_testcase11</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_10" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: unexpected alert open: {Alert text : }
+  (Session info: chrome=104.0.5112.81): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java spiderpage_testcase11.png" data-lightbox="chrome-java spiderpage_testcase11.png">
+                              <img src="./screenshots/chrome-java spiderpage_testcase11.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java spiderpage_testcase11.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_11">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>screenvalidationpage_testcase12</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_11" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 12 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_12">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>screenvalidationcount_testcase13</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_12" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 21 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_13">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>screendefinitionpage_testcase14</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_13" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 13 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_14">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>screenvalidation_testcase15</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_14" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 12 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_15">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>screendefinitioncount_testcase16</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_15" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: unexpected alert open: {Alert text : }
+  (Session info: chrome=104.0.5112.81): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java screendefinitioncount_testcase16.png" data-lightbox="chrome-java screendefinitioncount_testcase16.png">
+                              <img src="./screenshots/chrome-java screendefinitioncount_testcase16.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java screendefinitioncount_testcase16.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_16">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>screendefinition_testcase17</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_16" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 13 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_17">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>sankey1_testcase18</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_17" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: unexpected alert open: {Alert text : }
+  (Session info: chrome=104.0.5112.81): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java sankey1_testcase18.png" data-lightbox="chrome-java sankey1_testcase18.png">
+                              <img src="./screenshots/chrome-java sankey1_testcase18.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java sankey1_testcase18.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_18">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>sankeypage_testcase19</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_18" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 13 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_19">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>sankey_testcase20</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_19" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 13 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_20">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>rulesreport2_testcase21</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_20" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: unexpected alert open: {Alert text : }
+  (Session info: chrome=104.0.5112.81): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java rulesreport2_testcase21.png" data-lightbox="chrome-java rulesreport2_testcase21.png">
+                              <img src="./screenshots/chrome-java rulesreport2_testcase21.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java rulesreport2_testcase21.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_21">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>rulesreport1_testcase22</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_21" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 10 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_22">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>rulesreport_testcase23</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_22" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: unexpected alert open: {Alert text : }
+  (Session info: chrome=104.0.5112.81): {Alert text : 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java rulesreport_testcase23.png" data-lightbox="chrome-java rulesreport_testcase23.png">
+                              <img src="./screenshots/chrome-java rulesreport_testcase23.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java rulesreport_testcase23.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_23">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>rulespage_testcase24</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_23" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 15 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_24">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>rulescount_testcase25</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_24" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 19 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_25">
+                        
+                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                        
+
+                        <font color="green"><b>TestCase:</b>redirectionCheck_testcase26</font>
+                        
+                        
+                        <span class="label-container">
+                          <span class="label label-success" title="Passed">Passed</span>
+                          
+                          
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_25" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 19 seconds</font>
+
+                          
+
+                          
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_26">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>programprocessflow_testcase27</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_26" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 662 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Failed: disconnected: Unable to receive message from renderer
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java programprocessflow_testcase27.png" data-lightbox="chrome-java programprocessflow_testcase27.png">
+                              <img src="./screenshots/chrome-java programprocessflow_testcase27.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java programprocessflow_testcase27.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_27">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>callchain1_testcase28</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_27" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java callchain1_testcase28.png" data-lightbox="chrome-java callchain1_testcase28.png">
+                              <img src="./screenshots/chrome-java callchain1_testcase28.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java callchain1_testcase28.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_28">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>orphanpage_testcase29</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_28" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java orphanpage_testcase29.png" data-lightbox="chrome-java orphanpage_testcase29.png">
+                              <img src="./screenshots/chrome-java orphanpage_testcase29.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java orphanpage_testcase29.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_29">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>navigation5_testcase30</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_29" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java navigation5_testcase30.png" data-lightbox="chrome-java navigation5_testcase30.png">
+                              <img src="./screenshots/chrome-java navigation5_testcase30.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java navigation5_testcase30.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_30">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>orphancount_testcase31</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_30" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java orphancount_testcase31.png" data-lightbox="chrome-java orphancount_testcase31.png">
+                              <img src="./screenshots/chrome-java orphancount_testcase31.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java orphancount_testcase31.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_31">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>orphancomponents_testcase32</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_31" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java orphancomponents_testcase32.png" data-lightbox="chrome-java orphancomponents_testcase32.png">
+                              <img src="./screenshots/chrome-java orphancomponents_testcase32.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java orphancomponents_testcase32.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_32">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>navigation4_testcase33</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_32" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java navigation4_testcase33.png" data-lightbox="chrome-java navigation4_testcase33.png">
+                              <img src="./screenshots/chrome-java navigation4_testcase33.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java navigation4_testcase33.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_33">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>navigation3_testcase34</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_33" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java navigation3_testcase34.png" data-lightbox="chrome-java navigation3_testcase34.png">
+                              <img src="./screenshots/chrome-java navigation3_testcase34.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java navigation3_testcase34.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_34">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>navigation2_testcase35</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_34" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java navigation2_testcase35.png" data-lightbox="chrome-java navigation2_testcase35.png">
+                              <img src="./screenshots/chrome-java navigation2_testcase35.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java navigation2_testcase35.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_35">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>navigation1_testcase36</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_35" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java navigation1_testcase36.png" data-lightbox="chrome-java navigation1_testcase36.png">
+                              <img src="./screenshots/chrome-java navigation1_testcase36.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java navigation1_testcase36.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_36">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>missingpage_testcase37</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_36" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java missingpage_testcase37.png" data-lightbox="chrome-java missingpage_testcase37.png">
+                              <img src="./screenshots/chrome-java missingpage_testcase37.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java missingpage_testcase37.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_37">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>missingcount_testcase38</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_37" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java missingcount_testcase38.png" data-lightbox="chrome-java missingcount_testcase38.png">
+                              <img src="./screenshots/chrome-java missingcount_testcase38.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java missingcount_testcase38.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_38">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>missingcomp_testcase39</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_38" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java missingcomp_testcase39.png" data-lightbox="chrome-java missingcomp_testcase39.png">
+                              <img src="./screenshots/chrome-java missingcomp_testcase39.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java missingcomp_testcase39.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_39">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>mipage_testcase40</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_39" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java mipage_testcase40.png" data-lightbox="chrome-java mipage_testcase40.png">
+                              <img src="./screenshots/chrome-java mipage_testcase40.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java mipage_testcase40.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_40">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>micount_testcase41</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_40" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java micount_testcase41.png" data-lightbox="chrome-java micount_testcase41.png">
+                              <img src="./screenshots/chrome-java micount_testcase41.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java micount_testcase41.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_41">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>masterinventory_testcase42</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_41" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java masterinventory_testcase42.png" data-lightbox="chrome-java masterinventory_testcase42.png">
+                              <img src="./screenshots/chrome-java masterinventory_testcase42.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java masterinventory_testcase42.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_42">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>mainpage_testcase43</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_42" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java mainpage_testcase43.png" data-lightbox="chrome-java mainpage_testcase43.png">
+                              <img src="./screenshots/chrome-java mainpage_testcase43.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java mainpage_testcase43.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_43">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>logout_testcase44</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_43" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java logout_testcase44.png" data-lightbox="chrome-java logout_testcase44.png">
+                              <img src="./screenshots/chrome-java logout_testcase44.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java logout_testcase44.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_44">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>login_testcase45</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_44" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java login_testcase45.png" data-lightbox="chrome-java login_testcase45.png">
+                              <img src="./screenshots/chrome-java login_testcase45.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java login_testcase45.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_45">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>GlossarySpinnerIconPresence_testcase46</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_45" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java GlossarySpinnerIconPresence_testcase46.png" data-lightbox="chrome-java GlossarySpinnerIconPresence_testcase46.png">
+                              <img src="./screenshots/chrome-java GlossarySpinnerIconPresence_testcase46.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java GlossarySpinnerIconPresence_testcase46.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_46">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>glossaryspinner_testcase47</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_46" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java glossaryspinner_testcase47.png" data-lightbox="chrome-java glossaryspinner_testcase47.png">
+                              <img src="./screenshots/chrome-java glossaryspinner_testcase47.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java glossaryspinner_testcase47.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_47">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>glossarypage_testcase48</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_47" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java glossarypage_testcase48.png" data-lightbox="chrome-java glossarypage_testcase48.png">
+                              <img src="./screenshots/chrome-java glossarypage_testcase48.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java glossarypage_testcase48.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_48">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>glossarycount_testcase49</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_48" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java glossarycount_testcase49.png" data-lightbox="chrome-java glossarycount_testcase49.png">
+                              <img src="./screenshots/chrome-java glossarycount_testcase49.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java glossarycount_testcase49.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_49">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>glossary1_testcase50</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_49" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java glossary1_testcase50.png" data-lightbox="chrome-java glossary1_testcase50.png">
+                              <img src="./screenshots/chrome-java glossary1_testcase50.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java glossary1_testcase50.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_50">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>frontpage_testcase51</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_50" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java frontpage_testcase51.png" data-lightbox="chrome-java frontpage_testcase51.png">
+                              <img src="./screenshots/chrome-java frontpage_testcase51.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java frontpage_testcase51.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_51">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>crudpage_testcase52</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_51" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java crudpage_testcase52.png" data-lightbox="chrome-java crudpage_testcase52.png">
+                              <img src="./screenshots/chrome-java crudpage_testcase52.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java crudpage_testcase52.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_52">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>crudmultiplelocators_testcase53</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_52" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java crudmultiplelocators_testcase53.png" data-lightbox="chrome-java crudmultiplelocators_testcase53.png">
+                              <img src="./screenshots/chrome-java crudmultiplelocators_testcase53.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java crudmultiplelocators_testcase53.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_53">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>crudcount_testcase54</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_53" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java crudcount_testcase54.png" data-lightbox="chrome-java crudcount_testcase54.png">
+                              <img src="./screenshots/chrome-java crudcount_testcase54.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java crudcount_testcase54.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_54">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>controlflowpage_testcase55</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_54" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java controlflowpage_testcase55.png" data-lightbox="chrome-java controlflowpage_testcase55.png">
+                              <img src="./screenshots/chrome-java controlflowpage_testcase55.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java controlflowpage_testcase55.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_55">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>controlflow_testcase56</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_55" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java controlflow_testcase56.png" data-lightbox="chrome-java controlflow_testcase56.png">
+                              <img src="./screenshots/chrome-java controlflow_testcase56.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java controlflow_testcase56.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_56">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>componentsRedirectionCheck_testcase57</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_56" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java componentsRedirectionCheck_testcase57.png" data-lightbox="chrome-java componentsRedirectionCheck_testcase57.png">
+                              <img src="./screenshots/chrome-java componentsRedirectionCheck_testcase57.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java componentsRedirectionCheck_testcase57.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_57">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>components_testcase58</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_57" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java components_testcase58.png" data-lightbox="chrome-java components_testcase58.png">
+                              <img src="./screenshots/chrome-java components_testcase58.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java components_testcase58.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_58">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>commentedlinespage_testcase59</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_58" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java commentedlinespage_testcase59.png" data-lightbox="chrome-java commentedlinespage_testcase59.png">
+                              <img src="./screenshots/chrome-java commentedlinespage_testcase59.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java commentedlinespage_testcase59.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_59">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>commentedlinescount_testcase60</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_59" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java commentedlinescount_testcase60.png" data-lightbox="chrome-java commentedlinescount_testcase60.png">
+                              <img src="./screenshots/chrome-java commentedlinescount_testcase60.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java commentedlinescount_testcase60.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_60">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>callchainpage_testcase61</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_60" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java callchainpage_testcase61.png" data-lightbox="chrome-java callchainpage_testcase61.png">
+                              <img src="./screenshots/chrome-java callchainpage_testcase61.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java callchainpage_testcase61.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" href="#collapseTestCase0_61">
+                        
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                        
+
+                        
+                        
+                        <font color="red"><b>TestCase:</b>callchain_testcase62</font>
+                        <span class="label-container">
+                          
+                          
+                          <span class="label label-danger" title="Failed">Failed</span>
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTestCase0_61" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p class="scenario-container">
+                        
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 1 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">WebDriverError: No active session with ID 38d9489646df6e482241391e231866e4</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-java callchain_testcase62.png" data-lightbox="chrome-java callchain_testcase62.png">
+                              <img src="./screenshots/chrome-java callchain_testcase62.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-java callchain_testcase62.png"/>
+                            </a>
+                        
+                      
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              
+            </div>
+      </div>
+
+
+  </div>
+  </div>
+</div>
+
+
+
+    </div>
+
+
+    <div class="navbar-fixed-bottom row-fluid footer-div ">
+      <div class="navbar-inner">
+        <div class="footer-container">
+          <a  target="_blank" href="https://www.npmjs.com/package/protractor-html-reporter-2">
+            <div class="text-muted footer-link">
+              generated by @protractor-html-reporter-2
+            </div>
+             </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(function() {drawChart({
+                                                              "title": "TestSuites",
+                                                              "passed": 0,
+                                                              "failed": 1,
+        })
+      });
+      google.charts.setOnLoadCallback(function() {drawChart({
+                                                              "title": "TestCases",
+                                                              "passed": 0,
+                                                              "skipped": 0,
+                                                              "errors": 0,
+                                                              "failed": 62
+        })
+      });
+
+    </script>
+    <script>
+      function drawChart(chartData) {
+  var data = google.visualization.arrayToDataTable([
+    ['Task', 'Project Results'],
+    ['Passed', chartData.passed],
+    ['Skipped', chartData.skipped],
+    ['Errors', chartData.errors],
+    ['Failed', chartData.failed]
+  ]);
+
+  var testsNumber = chartData.passed + chartData.failed + (chartData.skipped || 0) + (chartData.errors || 0);
+  var title;
+
+  if (testsNumber === 1) {
+    title = testsNumber + ' ' + chartData.title.slice(0, -1);
+  } else {
+    title = testsNumber + ' ' + chartData.title;
+  }
+
+  var options = {
+    width: '100%',
+    height: 270,
+    title: title,
+    is3D: true,
+    fontSize: '12',
+    colors: ['#5cb85c', '#f0ad4e', '#5bc0de', '#d9534f'],
+    pieStartAngle: 100,
+    backgroundColor: 'white',
+    titleTextStyle: {
+      fontSize: '13',
+      color: '#5e5e5e'
+    }
+  };
+
+  var chart = new google.visualization.PieChart(document.getElementById('piechart_' + chartData.title.toLowerCase()));
+  chart.draw(data, options);
+}
+
+    </script>
+
+  </body>
+</html>
