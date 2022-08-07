@@ -1,0 +1,1326 @@
+[12:23:04] I/launcher - Running 1 instances of WebDriver
+[12:23:04] I/hosted - Using the selenium server at http://localhost:4444/wd/hub
+Started
+Application_name : plsql, Scenario_name : AllReportRedirection
+null
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Master Inventory
+test_step_click   X-Ref Report
+test_step_click   CRUD
+test_step_click   Glossary
+test_step_click   Spider
+test_step_click   Flow Diagrams
+test_step_click Call Chain
+test_step_click Control Flow
+test_step_click Program Process Flow
+test_step_click Sankey Diagram
+test_step_click   Business Rule Extraction
+test_step_click Detailed Report
+test_step_click Rules report
+test_step_click Rule Category
+test_step_click Variable Impact Report
+test_step_click   Missing Component
+test_step_click Commented Lines Report
+test_step_click Technical Debt Report
+test_step_click Orphan Report
+test_step_click Drop Impact Report
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : spiderTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Spider
+Assertion Passed: Expected Spider Diagram for the Xpath/html/body/app-root/app-layout/section/app-spiderfilterapp/div[1]/app-page-header/div/div/ol/li[2] contain Spider Diagram. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[2]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[2]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[2]/div/div[3]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[2]/div/div[4]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[3]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[3]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[3]/div/div[3]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[3]/div/div[4]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-spiderfilterapp/div[3]/div/div[5]/button is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : xrefTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   X-Ref Report
+Assertion Passed: Expected X-Ref Report for the Xpath/html/body/app-root/app-layout/section/app-x-ref-application/div[1]/app-page-header/div/div/ol/li[2] contain X-Ref Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[3]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[3]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[2]/input is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[3]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[7]/a/img is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : xefTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click X-Ref Report
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[3]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Failed: Expected  for the Xpath/html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[5]/label But has Total no of records: 34679. :Assertion Failed
+test_step_click Employee Record
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-x-ref-application/div[3]/div[3]/select/option[3] is present in current page. :Assertion Passed
+Assertion Passed: Expected Total no of records: 1 for the Xpath/html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[5]/label contain Total no of records: 1. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : variableimpactreporttotalentry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Variable Impact Report
+test_step_inputfunction
+test_step_click Search
+Assertion Passed: Expected Total results found: 2 for the Xpath/html/body/app-root/app-layout/section/app-impact/div[3]/div[4]/label is equal toTotal results found: 2. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : variableimpactreport
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Variable Impact Report
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-impact/div[3]/div[6]/button is not present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : spinnericonCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Glossary
+test_step_click Update Annotations
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[3]/div[4]/span is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[3]/div[5]/i is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : sankeydiagram
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Sankey Diagram
+test_step_click Employee Record
+test_step_click Inbound
+test_step_click Submit
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : sankey
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Sankey Diagram
+presence
+Assertion Failed: Expected element xpath/html/body/app-root/app-layout/section/app-sankey/div[2]/div[5]/button is present in current page. :Assertion Failed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : rulesTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Business Rule Extraction
+test_step_click Rules report
+Assertion Passed: Expected Rules Report for the Xpath/html/body/app-root/app-layout/section/app-breplsql-app/div[1]/app-page-header/div/div/ol/li[2] contain Rules Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[3]/div is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[4]/div is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[3]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[5] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[6] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[7] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[2]/table/tbody/tr/td is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[5] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : rulesTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Business Rule Extraction
+test_step_click Rules report
+test_step_click All
+test_step_click PACKAGE
+test_step_click EPIC_ORDERS_SPEC_CHECKS_PKG
+[12:27:27] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:27:27] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:27:27] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+test_step_click Submit
+[12:27:27] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:27:27] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[3]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[4]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 213 entries for the Xpath/html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[4] contain Showing 1 to 10 of 213 entries. :Assertion Passed
+test_step_click Employee Record
+test_step_click STAND ALONE
+test_step_click FUNCTION
+[12:27:32] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:27:32] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:27:32] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+test_step_click Submit
+[12:27:32] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:27:32] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[3]/div/div[2]/select/option[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[4]/div/div[2]/select/option[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 2 of 2 entries for the Xpath/html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[4] contain Showing 1 to 2 of 2 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : rulecategoryTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Business Rule Extraction
+test_step_click Rule Category
+Assertion Passed: Expected Rule Category View Report for the Xpath/html/body/app-root/app-layout/section/app-bre3/div[1]/app-page-header/div/div/ol/li[2] contain Rule Category View Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre3/div[3]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre3/div[3]/div[3]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre3/div[3]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre3/div[4]/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre3/div[4]/div[2]/input is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre3/div[4]/div[3]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre3/div[4]/div[4]/button is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : orphanRedirection
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+Assertion Passed: Expected orphan/driver components for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[4]/div[1]/a/app-stat/div/div/div/div[2]/div[2] contain orphan/driver components. :Assertion Passed
+test_step_click 11
+Assertion Passed: Expected orphan/driver reports for the Xpath/html/body/app-root/app-layout/section/app-orphanapp/div[1]/app-page-header/div/div/ol/li[2] contain orphan/driver reports. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : rulecategory
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Business Rule Extraction
+test_step_click Rule Category
+test_step_click Business Rule
+test_step_click Submit
+Assertion Failed: Expected  for the Xpath/html/body/app-root/app-layout/section/app-bre3/div[4]/div[5]/label But has Total no of records: undefined. :Assertion Failed
+test_step_click Technical Rule
+test_step_click Submit
+Assertion Passed: Expected Total no of records: undefined for the Xpath/html/body/app-root/app-layout/section/app-bre3/div[4]/div[5]/label is equal toTotal no of records: undefined. :Assertion Passed
+test_step_click Other Action
+test_step_click Submit
+Assertion Passed: Expected Total no of records: undefined for the Xpath/html/body/app-root/app-layout/section/app-bre3/div[4]/div[5]/label is equal toTotal no of records: undefined. :Assertion Passed
+test_step_click Business Action
+test_step_click Submit
+Assertion Passed: Expected Total no of records: undefined for the Xpath/html/body/app-root/app-layout/section/app-bre3/div[4]/div[5]/label is equal toTotal no of records: undefined. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : programprocessflowTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Flow Diagrams
+test_step_click Program Process Flow
+Assertion Passed: Expected Program Process Flow Diagram for the Xpath/html/body/app-root/app-layout/section/app-programprocessflow/div[1]/app-page-header/div/div/ol/li[2] contain Program Process Flow Diagram. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-programprocessflow/div[4]/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-programprocessflow/div[4]/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-programprocessflow/div[4]/div[3]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-programprocessflow/div[4]/div[4]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-programprocessflow/div[4]/div[5]/button is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : plsqllogin
+test_step_inputdemouser
+test_step_click Login
+test_step_inputdemouser1
+it completed
+[31mF[0mApplication_name : plsql, Scenario_name : orphanTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Technical Debt Report
+test_step_click Orphan Report
+Assertion Passed: Expected Orphan/Driver Reports for the Xpath/html/body/app-root/app-layout/section/app-orphanapp/div[1]/app-page-header/div/div/ol/li[2] contain Orphan/Driver Reports. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[3]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[3]/div[3]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[3]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[4]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[4]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[4]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath //*[@id="orphanDataTbl_info"] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[4]/div/div/div/div[5] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : orphanNumberCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+Assertion Passed: Expected 11 for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[4]/div[1]/a/app-stat/div/div/div/div[2]/div[1]/h2 is equal to11. :Assertion Passed
+test_step_click 11
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-orphanapp/div[3]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 11 entries for the Xpath/html/body/app-root/app-layout/section/app-orphanapp/div[4]/div/div/div/div[4] contain Showing 1 to 10 of 11 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : modalwindowNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Master Inventory
+test_step_click All
+test_step_click Submit
+[12:30:23] W/element - more than one element found for locator By(xpath,  //td) - the first result will be used
+[12:30:23] W/element - more than one element found for locator By(xpath,  //td) - the first result will be used
+[12:30:23] W/element - more than one element found for locator By(xpath,  //td) - the first result will be used
+test_step_click customers_audit_trg
+[12:30:23] W/element - more than one element found for locator By(xpath,  //td) - the first result will be used
+[12:30:24] W/element - more than one element found for locator By(xpath,  //td) - the first result will be used
+test_step_click customers_audit_trg
+Assertion Passed: Expected customers_audit_trg for the Xpath/html/body/ngb-modal-window/div/div/div[1]/label[1] contain customers_audit_trg. :Assertion Passed
+Assertion Passed: Expected CREATE OR REPLACE TRIGGER CUSTOMERS_AUDIT_TRG
+    AFTER
+    UPDATE OR DELETE
+    ON customers
+    FOR EACH ROW    
+DECLARE
+   l_transaction VARCHAR2(10);
+BEGIN
+   -- determine the transaction type
+   -- determine the transaction type
+   l_transaction := CASE  
+         WHEN UPDATING THEN 'UPDATE'
+         WHEN DELETING THEN 'DELETE'
+   END;
+
+   -- insert a row into the audit table   
+   -- insert a row into the audit table   
+   INSERT INTO audits (table_name, transaction_name, by_user, transaction_date)
+   VALUES('CUSTOMERS', l_transaction, USER, SYSDATE);
+END;
+/ for the Xpath/html/body/ngb-modal-window/div/div/div[2]/div[1] contain . :Assertion Passed
+test_step_click ×
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : NumberCheckinDashboard
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+Assertion Passed: Expected 12
+Components for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[2]/div[1]/a/app-stat/div/div/div/div[2] contain 12. :Assertion Passed
+Assertion Passed: Expected 10913
+Lines of Code for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[2]/div[2]/a/app-stat/div/div/div/div[2] contain 10913. :Assertion Passed
+Assertion Passed: Expected 22
+No of Tables for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[2]/div[3]/a/app-stat/div/div/div/div[2] contain 22. :Assertion Passed
+Assertion Passed: Expected 11
+Orphan/Driver Components for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[4]/div[1]/a/app-stat/div/div/div/div[2] contain 11. :Assertion Passed
+Assertion Passed: Expected 11
+Missing Components for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[4]/div[2]/a/app-stat/div/div/div/div[2] contain 11. :Assertion Passed
+Assertion Passed: Expected 0
+Lines of Dead Code for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[4]/div[3]/a/app-stat/div/div/div/div[2] contain 0. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : mitospiderNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Master Inventory
+presence
+xpath in same page
+assert Master Inventory
+Master Inventory
+Assertion Passed: Expected Master Inventory Report for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[1]/app-page-header/div/div/ol/li[2] contain  Master Inventory . :Assertion Passed
+test_step_click X-Ref Report
+presence
+xpath in same page
+assert X-Ref Report
+X-Ref Report
+Assertion Passed: Expected X-Ref Report for the Xpath/html/body/app-root/app-layout/section/app-x-ref-application/div[1]/app-page-header/div/div/ol/li[2] contain  X-Ref Report . :Assertion Passed
+test_step_click   CRUD
+presence
+xpath in same page
+assert   CRUD
+  CRUD
+Assertion Failed: Expected CRUD Reports for the Xpath/html/body/app-root/app-layout/section/app-formapp/div[1]/app-page-header/div/div/ol/li[2] But has   CRUD . :Assertion Failed
+test_step_click   Glossary
+presence
+xpath in same page
+assert   Glossary
+  Glossary
+Assertion Failed: Expected Glossary Report for the Xpath/html/body/app-root/app-layout/section/app-bre/div[1]/app-page-header/div/div/ol/li[2] But has   Glossary . :Assertion Failed
+test_step_click   Spider
+presence
+xpath in same page
+assert   Spider
+  Spider
+Assertion Failed: Expected Spider Diagram for the Xpath/html/body/app-root/app-layout/section/app-spiderfilterapp/div[1]/app-page-header/div/div/ol/li[2] But has   Spider . :Assertion Failed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : missingTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Missing Component
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[2]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 11 entries for the Xpath/html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[4] contain Showing 1 to 10 of 11 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : missingNumberChheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+Assertion Passed: Expected 11 for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[4]/div[2]/a/app-stat/div/div/div/div[2]/div[1]/h2 is equal to11. :Assertion Passed
+test_step_click 
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[2]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 11 entries for the Xpath/html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[4] contain Showing 1 to 10 of 11 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : missingcomponentTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+[12:31:23] W/element - more than one element found for locator By(xpath,  //a[@href="/plsql/missingcompApplication"]) - the first result will be used
+[12:31:23] W/element - more than one element found for locator By(xpath,  //a[@href="/plsql/missingcompApplication"]) - the first result will be used
+[12:31:23] W/element - more than one element found for locator By(xpath,  //a[@href="/plsql/missingcompApplication"]) - the first result will be used
+test_step_click   Missing Component
+[12:31:23] W/element - more than one element found for locator By(xpath,  //a[@href="/plsql/missingcompApplication"]) - the first result will be used
+[12:31:23] W/element - more than one element found for locator By(xpath,  //a[@href="/plsql/missingcompApplication"]) - the first result will be used
+Assertion Passed: Expected Missing Component Report for the Xpath/html/body/app-root/app-layout/section/app-missingcompapp/div[1]/app-page-header/div/div/ol/li[2] contain Missing Component Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[2]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[2]/div[3]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[1]/app-page-header/div/div is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-missingcompapp/div[3]/div/div/div/div[5] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : masterinventoryTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Master Inventory
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[1]/app-page-header/div/div/ol/li[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[3]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[3]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[5] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[6] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[7] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[8] is present in current page. :Assertion Passed
+Assertion Passed: Expected No data available in table for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[3]/div[2]/table/tbody/tr/td is equal toNo data available in table. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[4] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : masterinventoryTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Master Inventory
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[3]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 12 entries for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[4] contain Showing 1 to 10 of 12 entries. :Assertion Passed
+test_step_click Employee Record
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[3]/div[3]/select/option[3] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 7 of 7 entries for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[4] contain Showing 1 to 7 of 7 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : masterinventoryNumberscheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Master Inventory
+test_step_click All
+test_step_click Submit
+Assertion Passed: Expected all for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[3]/div[3]/select/option[2] contain all. :Assertion Passed
+Assertion Passed: Expected 1 for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/span/a[1] is equal to1. :Assertion Passed
+Assertion Passed: Expected 2 for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/span/a[2] is equal to2. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : masterinventoryFirstToLast
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Master Inventory
+Assertion Passed: Expected --select application-- for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[3]/div[3]/select/option[1] contain --select application--. :Assertion Passed
+Assertion Passed: Expected first for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[1] is equal tofirst. :Assertion Passed
+Assertion Passed: Expected previous for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[2] is equal toprevious. :Assertion Passed
+Assertion Passed: Expected next for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[3] is equal tonext. :Assertion Passed
+Assertion Passed: Expected last for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[5]/a[4] is equal tolast. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : GlossaryTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Glossary
+Assertion Passed: Expected Glossary Report for the Xpath/html/body/app-root/app-layout/section/app-bre/div[1]/app-page-header/div/div/ol/li[2] contain Glossary Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[3]/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[3]/div[2]/input is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[3]/div[3]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[3]/div[4]/i is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[3]/div[7]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[1]/div/table/thead/tr/th[3] is present in current page. :Assertion Passed
+Assertion Passed: Expected RC_INV_BTS_C3_PKG.pkb for the Xpath/html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[2]/table/tbody/tr/td[1] is equal toRC_INV_BTS_C3_PKG.pkb. :Assertion Passed
+Assertion Passed: Expected ERROR_MSG for the Xpath/html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[2]/table/tbody/tr/td[2] is equal toERROR_MSG. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 1 of 1 entries for the Xpath/html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[4] is equal toShowing 1 to 1 of 1 entries. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[5]/a[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[5]/a[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[5]/a[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[5]/a[4] is present in current page. :Assertion Passed
+Assertion Passed: Expected 1 for the Xpath/html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[5]/span/a is equal to1. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : glossaryTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Glossary
+Assertion Passed: Expected Showing 1 to 1 of 1 entries for the Xpath/html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[4] is equal toShowing 1 to 1 of 1 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : glossaryElementCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Glossary
+Assertion Passed: Expected RC_INV_BTS_C3_PKG.pkb for the Xpath/html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[2]/table/tbody/tr/td[1] contain RC_INV_BTS_C3_PKG.pkb. :Assertion Passed
+Assertion Passed: Expected ERROR_MSG for the Xpath/html/body/app-root/app-layout/section/app-bre/div[4]/div[1]/div/div/div[3]/div[2]/table/tbody/tr/td[2] contain ERROR_MSG. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : Forwardcallchain
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Flow Diagrams
+test_step_click Call Chain
+test_step_click All
+test_step_click FUNCTION
+it completed
+[31mF[0mApplication_name : plsql, Scenario_name : forwardcall
+it completed
+[31mF[0mApplication_name : plsql, Scenario_name : flowdiagramtotechnicaldebtNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Flow Diagrams
+test_step_click Call Chain
+presence
+xpath in same page
+assert Call Chain
+Call Chain
+Assertion Passed: Expected Dashboard
+Call Chain Diagram for the Xpath/html/body/app-root/app-layout/section/app-callchain-plsql-app/div[1]/app-page-header/div/div/ol contain  Call Chain . :Assertion Passed
+test_step_click   Control Flow
+presence
+xpath in same page
+assert   Control Flow
+  Control Flow
+Assertion Failed: Expected Control Flow Diagram for the Xpath/html/body/app-root/app-layout/section/app-controlflowapp/div[1]/app-page-header/div/div/ol/li[2] But has   Control Flow . :Assertion Failed
+it completed
+[31mF[0mApplication_name : plsql, Scenario_name : commentedlinesTotalEntry
+it completed
+[31mF[0mApplication_name : plsql, Scenario_name : dropimpactTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Technical Debt Report
+test_step_click Drop Impact Report
+Assertion Passed: Expected Drop Impact Report for the Xpath/html/body/app-root/app-layout/section/app-dropimpactapp/div[1]/app-page-header/div/div/ol/li[2] contain Drop Impact Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[3]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[3]/div[3]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[3]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[5] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : dropimpactTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Technical Debt Report
+test_step_click Drop Impact Report
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[3]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 2 of 2 entries for the Xpath/html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[4] is equal toShowing 1 to 2 of 2 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : detailedTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Business Rule Extraction
+test_step_click Detailed Report
+Assertion Passed: Expected Detailed Report for the Xpath/html/body/app-root/app-layout/section/app-breplsql-app/div[1]/app-page-header/div/div/ol/li[2] contain Detailed Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[3]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[3]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[4]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[4]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[3]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[5] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[6] is present in current page. :Assertion Passed
+Assertion Passed: Expected No data available in table for the Xpath/html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[3]/div[2]/table/tbody/tr/td is equal toNo data available in table. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[5] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : detailedreportTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Business Rule Extraction
+test_step_click Detailed Report
+test_step_click All
+test_step_click PACKAGE
+test_step_click EPIC_ORDERS_SPEC_CHECKS_PKG
+[12:34:53] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:34:53] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:34:53] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+test_step_click Submit
+[12:34:53] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:34:53] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[3]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[4]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+Assertion Failed: Expected Showing 0 to 0 of 0 entries for the Xpath/html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[4] But has 3. :Assertion Failed
+test_step_click Employee Record
+test_step_click STAND ALONE
+test_step_click FUNCTION
+[12:35:02] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:35:02] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:35:02] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+test_step_click Submit
+[12:35:03] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:35:03] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[3]/div/div[2]/select/option[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[4]/div/div[2]/select/option[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-breplsql-app/div[5]/div/div[2]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 89 entries for the Xpath/html/body/app-root/app-layout/section/app-breplsql-app/div[7]/div/div/div/div[4] contain Showing 1 to 10 of 89 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : deadreportRedirection
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+Assertion Passed: Expected lines of dead code for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[4]/div[3]/a/app-stat/div/div/div/div[2]/div[2] contain lines of dead code. :Assertion Passed
+test_step_click 
+Assertion Passed: Expected dead para for the Xpath/html/body/app-root/app-layout/section/app-deadparaapp/div[1]/app-page-header/div/div/ol/li[2] contain dead para. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : crudTotalNamecheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click CRUD
+Assertion Passed: Expected CRUD Reports for the Xpath/html/body/app-root/app-layout/section/app-formapp/div[1]/app-page-header/div/div/ol/li[2] contain CRUD Reports. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[3]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[3]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[5] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[5]/a[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[5]/a[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[5]/a[3] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[5]/a[4] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : crudTotalEntry
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click CRUD
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[3]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 108 entries for the Xpath/html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[4] contain Showing 1 to 10 of 108 entries. :Assertion Passed
+test_step_click Employee Record
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-formapp/div[3]/div[3]/select/option[3] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 0 to 0 of 0 entries for the Xpath/html/body/app-root/app-layout/section/app-formapp/div[4]/div/div/div/div[4] contain Showing 0 to 0 of 0 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : controlflowTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Flow Diagrams
+test_step_click Control Flow
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[1]/app-page-header/div/div/ol/li[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[2]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[2]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[2]/div/div[3]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[2]/div/div[4]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[3]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[3]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-controlflowapp/div[3]/div/div[3]/button is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : componentToMasterinventory
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click 12
+Assertion Passed: Expected master inventory report for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[1]/app-page-header/div/div/ol/li[2] contain master inventory report. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : componentNumberCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+Assertion Passed: Expected 12 for the Xpath/html/body/app-root/app-layout/section/app-dashboard/div[1]/div[2]/div[1]/a/app-stat/div/div/div/div[2]/div[1]/h2 is equal to12. :Assertion Passed
+test_step_click 12
+test_step_click All
+test_step_click Submit
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-masterinvapp/div[3]/div[3]/select/option[2] is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 10 of 12 entries for the Xpath/html/body/app-root/app-layout/section/app-masterinvapp/div[4]/div/div/div/div[4] contain Showing 1 to 10 of 12 entries. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : commentedlinesTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Commented Lines Report
+Assertion Passed: Expected Commented Lines Report for the Xpath/html/body/app-root/app-layout/section/app-commentedlinesapp/div[1]/app-page-header/div/div/ol/li[2] contain Commented Lines Report. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[3]/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[3]/div[3]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[3]/div[4]/button is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[2]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/a/img is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[1] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[3]/div[1]/div/table/thead/tr/th[2] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[4] is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[5] is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : callchainDownloadCheck
+it completed
+[31mF[0mApplication_name : plsql, Scenario_name : callchainNofieldSelected
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   Flow Diagrams
+test_step_click   Call Chain
+[12:36:34] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:36:34] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:36:34] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+test_step_click Submit
+[12:36:34] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+[12:36:34] W/element - more than one element found for locator By(xpath,  //button) - the first result will be used
+Assertion Passed: Expected Please select all values for the Xpath/html/body/app-root/app-layout/section/app-callchain-plsql-app/div[5]/div/label contain Please select all values. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : callchainTotalNameCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Flow Diagrams
+test_step_click Call Chain
+Assertion Passed: Expected Call Chain Diagram for the Xpath/html/body/app-root/app-layout/section/app-callchain-plsql-app/div[1]/app-page-header/div/div/ol/li[2] contain Call Chain Diagram. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[2]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[2]/div/div[3]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[2]/div/div[4]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[3]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[3]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[3]/div/div[3]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[4]/div/div[2]/select is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[4]/div/div[1]/label is present in current page. :Assertion Passed
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-callchain-plsql-app/div[4]/div/div[3]/button is present in current page. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : checkSearch
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Number of Attempts Left: 5
+test_step_click Login
+test_step_click Technical Debt Report
+test_step_click Drop Impact Report
+test_step_inputmain
+presence
+Assertion Passed: Expected element xpath /html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[3]/div[2]/table/tbody/tr is present in current page. :Assertion Passed
+Assertion Passed: Expected Showing 1 to 1 of 1 entries (filtered from 2 total entries) for the Xpath/html/body/app-root/app-layout/section/app-dropimpactapp/div[4]/div/div/div/div[4] is equal toShowing 1 to 1 of 1 entries (filtered from 2 total entries). :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : clearsearchCheck
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click   X-Ref Report
+test_step_click All
+test_step_click Submit
+test_step_inputprocedure
+test_step_click Clear Search
+Assertion Passed: Expected  for the Xpath/html/body/app-root/app-layout/section/app-x-ref-application/div[4]/div[2]/input is equal to. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0mApplication_name : plsql, Scenario_name : commentedlinesreport
+test_step_inputdemouser
+test_step_inputdemouser1
+test_step_click Login
+test_step_click Commented Lines Report
+test_step_click All
+test_step_click Submit
+Assertion Passed: Expected rc_inv_bts_c3_pkg package body for the Xpath/html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[3]/div[2]/table/tbody/tr[1] contain package. :Assertion Passed
+test_step_click Employee Record
+test_step_click Submit
+Assertion Passed: Expected no data available in table for the Xpath/html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[3]/div[2]/table/tbody/tr/td contain no data available in table. :Assertion Passed
+test_step_click Finance
+test_step_click Submit
+Assertion Passed: Expected no data available in table for the Xpath/html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[3]/div[2]/table/tbody/tr/td contain no data available in table. :Assertion Passed
+test_step_click Order Management
+test_step_click Submit
+Assertion Passed: Expected no data available in table for the Xpath/html/body/app-root/app-layout/section/app-commentedlinesapp/div[4]/div/div/div/div[3]/div[2]/table/tbody/tr/td contain no data available in table. :Assertion Passed
+test_step_click Log Out
+it completed
+[32m.[0m
+
+Failures:
+1) plsql plsqllogin_testcase16
+  Message:
+[31m    Failed: Element taking too long to appear in the DOM
+    Wait timed out after 60029ms[0m
+  Stack:
+    TimeoutError: Element taking too long to appear in the DOM
+    Wait timed out after 60029ms
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+        at ManagedPromise.invokeCallback_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    From: Task: Element taking too long to appear in the DOM
+        at scheduleWait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+        at ControlFlow.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+        at thenableWebDriverProxy.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+        at run (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+        at ProtractorBrowser.to.<computed> [as wait] (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+        at UserContext.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:5490:9)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at schedulerExecute (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    From: Task: Run it("plsqllogin_testcase16") in control flow
+        at UserContext.<anonymous> (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    From asynchronous test: 
+    Error
+        at Suite.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:5374:1)
+        at Object.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:6:26)
+        at Module._compile (internal/modules/cjs/loader.js:1085:14)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+        at Module.load (internal/modules/cjs/loader.js:950:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+
+2) plsql Forwardcallchain_testcase32
+  Message:
+[31m    Failed: Element taking too long to appear in the DOM
+    Wait timed out after 60019ms[0m
+  Stack:
+    TimeoutError: Element taking too long to appear in the DOM
+    Wait timed out after 60019ms
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+        at ManagedPromise.invokeCallback_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    From: Task: Element taking too long to appear in the DOM
+        at scheduleWait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+        at ControlFlow.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+        at thenableWebDriverProxy.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+        at run (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+        at ProtractorBrowser.to.<computed> [as wait] (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+        at UserContext.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:10708:9)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at schedulerExecute (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    From: Task: Run it("Forwardcallchain_testcase32") in control flow
+        at UserContext.<anonymous> (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    From asynchronous test: 
+    Error
+        at Suite.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:10452:1)
+        at Object.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:6:26)
+        at Module._compile (internal/modules/cjs/loader.js:1085:14)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+        at Module.load (internal/modules/cjs/loader.js:950:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+
+3) plsql forwardcall_testcase33
+  Message:
+[31m    Failed: unexpected alert open: {Alert text : }
+      (Session info: chrome=104.0.5112.81): {Alert text : 
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+    System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+    Driver info: driver.version: unknown[0m
+  Stack:
+    UnexpectedAlertOpenError: unexpected alert open: {Alert text : }
+      (Session info: chrome=104.0.5112.81): {Alert text : 
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+    System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+    Driver info: driver.version: unknown
+        at Object.checkLegacyResponse (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:553:13)
+        at parseHttpResponse (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    From: Task: WebDriver.findElements(By(xpath, //input[@id="Uname"]))
+        at thenableWebDriverProxy.schedule (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+        at thenableWebDriverProxy.findElements (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44
+        at ManagedPromise.invokeCallback_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    From: Task: <anonymous>
+        at pollCondition (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    From: Task: Element taking too long to appear in the DOM
+        at scheduleWait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+        at ControlFlow.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+        at thenableWebDriverProxy.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+        at run (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+        at ProtractorBrowser.to.<computed> [as wait] (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+        at UserContext.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:10909:9)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at schedulerExecute (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    From: Task: Run it("forwardcall_testcase33") in control flow
+        at UserContext.<anonymous> (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    From asynchronous test: 
+    Error
+        at Suite.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:10887:1)
+        at Object.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:6:26)
+        at Module._compile (internal/modules/cjs/loader.js:1085:14)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+        at Module.load (internal/modules/cjs/loader.js:950:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+
+4) plsql flowdiagramtotechnicaldebtNameCheck_testcase34
+  Message:
+[31m    Failed: invalid selector: Unable to locate an element with the xpath expression //a[@title="Program because of the following error:
+    SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@title="Program' is not a valid XPath expression.
+      (Session info: chrome=104.0.5112.81)
+    For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+    System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+    Driver info: driver.version: unknown[0m
+  Stack:
+    InvalidSelectorError: invalid selector: Unable to locate an element with the xpath expression //a[@title="Program because of the following error:
+    SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@title="Program' is not a valid XPath expression.
+      (Session info: chrome=104.0.5112.81)
+    For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+    System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+    Driver info: driver.version: unknown
+        at Object.checkLegacyResponse (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+        at parseHttpResponse (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    From: Task: WebDriver.findElements(By(xpath, //a[@title="Program))
+        at thenableWebDriverProxy.schedule (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+        at thenableWebDriverProxy.findElements (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44
+        at ManagedPromise.invokeCallback_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    From: Task: <anonymous>
+        at pollCondition (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+        at runMicrotasks (<anonymous>)
+    From: Task: Element taking too long to appear in the DOM
+        at scheduleWait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+        at ControlFlow.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+        at thenableWebDriverProxy.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+        at run (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+        at ProtractorBrowser.to.<computed> [as wait] (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+        at UserContext.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:11653:9)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at schedulerExecute (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    From: Task: Run it("flowdiagramtotechnicaldebtNameCheck_testcase34") in control flow
+        at UserContext.<anonymous> (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    From asynchronous test: 
+    Error
+        at Suite.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:11331:1)
+        at Object.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:6:26)
+        at Module._compile (internal/modules/cjs/loader.js:1085:14)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+        at Module.load (internal/modules/cjs/loader.js:950:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+
+5) plsql commentedlinesTotalEntry_testcase35
+  Message:
+[31m    Failed: unexpected alert open: {Alert text : }
+      (Session info: chrome=104.0.5112.81): {Alert text : 
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+    System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+    Driver info: driver.version: unknown[0m
+  Stack:
+    UnexpectedAlertOpenError: unexpected alert open: {Alert text : }
+      (Session info: chrome=104.0.5112.81): {Alert text : 
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+    System info: host: 'INCHCMLP12070', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+    Driver info: driver.version: unknown
+        at Object.checkLegacyResponse (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:553:13)
+        at parseHttpResponse (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    From: Task: WebDriver.findElements(By(xpath, //input[@id="Uname"]))
+        at thenableWebDriverProxy.schedule (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+        at thenableWebDriverProxy.findElements (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44
+        at ManagedPromise.invokeCallback_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    From: Task: <anonymous>
+        at pollCondition (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    From: Task: Element taking too long to appear in the DOM
+        at scheduleWait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+        at ControlFlow.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+        at thenableWebDriverProxy.wait (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+        at run (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+        at ProtractorBrowser.to.<computed> [as wait] (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+        at UserContext.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:12633:9)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at schedulerExecute (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    From: Task: Run it("commentedlinesTotalEntry_testcase35") in control flow
+        at UserContext.<anonymous> (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    From asynchronous test: 
+    Error
+        at Suite.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:12611:1)
+        at Object.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:6:26)
+        at Module._compile (internal/modules/cjs/loader.js:1085:14)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+        at Module.load (internal/modules/cjs/loader.js:950:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+
+6) plsql callchainDownloadCheck_testcase47
+  Message:
+[31m    Failed: element(...).get is not a function[0m
+  Stack:
+    TypeError: element(...).get is not a function
+        at UserContext.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:16824:85)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+        at new ManagedPromise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+        at ControlFlow.promise (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+        at schedulerExecute (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+        at TaskQueue.execute_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+        at TaskQueue.executeNext_ (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+        at C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+        at runMicrotasks (<anonymous>)
+    From: Task: Run it("callchainDownloadCheck_testcase47") in control flow
+        at UserContext.<anonymous> (C:\Users\dr00810779\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    From asynchronous test: 
+    Error
+        at Suite.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:16704:1)
+        at Object.<anonymous> (D:\iTAP\Recorded_Scenarios\testRun\plsql\spec.js:6:26)
+        at Module._compile (internal/modules/cjs/loader.js:1085:14)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+        at Module.load (internal/modules/cjs/loader.js:950:32)
+        at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+
+52 specs, 6 failures
+Finished in 861.131 seconds
+
+[12:37:37] I/launcher - 0 instance(s) of WebDriver still running
+[12:37:37] I/launcher - chrome #01 failed 6 test(s)
+[12:37:37] I/launcher - overall: 6 failed spec(s)
+[12:37:37] E/launcher - Process exited with error code 1
